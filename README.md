@@ -92,13 +92,4 @@ Profitability is confirmed with high Sharpe ratios, stable directional accuracy,
 
 ---
 
-## **🚀 How to Run**
-
-### **1. Install dependencies**
-```bash
-pip install -r requirements.txt
-python Models/XGBoost/train_xgb.py
-python Trading/Strategy5_SigmoidSizing/trade_sigmoid.py
-Results/Trading_Outputs/
-Results/Trades_CSV/
 
