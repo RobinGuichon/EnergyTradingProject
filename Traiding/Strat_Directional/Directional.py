@@ -19,7 +19,7 @@ custom_cmap = LinearSegmentedColormap.from_list("custom_map", [darkred, yellow])
 # =========================================================
 # 1) LOAD TRAINED MODEL
 # =========================================================
-model_path = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Modèles/xgb_intraday_model.json"
+model_path = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Models/xgb_intraday_model.json"
 model = xgb.Booster()
 model.load_model(model_path)
 
@@ -28,7 +28,7 @@ print(f"✔ Loaded model: {model_path}")
 # =========================================================
 # 2) LOAD DATA
 # =========================================================
-path = "/Users/robinguichon/Desktop/ProjetEnerg/Data/DATA2_XGBOOST"
+path = "/Users/robinguichon/Desktop/ProjetEnerg/Data/Data_XGBoost_Rolling"
 
 X_full = pd.read_csv(f"{path}/X_clean_rolling_v2.csv")
 Y_full = pd.read_csv(f"{path}/Y_clean_v2.csv")
@@ -80,7 +80,7 @@ capital_curve = initial_capital + pnl_cum
 # =========================================================
 # SAVE PATH
 # =========================================================
-save_path = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Trade1"
+save_path = "/Users/robinguichon/Desktop/ProjetEnerg/Plots/Trading_Strategies/Directional"
 os.makedirs(save_path, exist_ok=True)
 
 # =========================================================

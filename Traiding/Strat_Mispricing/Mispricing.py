@@ -19,9 +19,9 @@ custom_cmap = LinearSegmentedColormap.from_list("custom_map", [darkred, yellow])
 # ======================================================
 # 0) PATHS
 # ======================================================
-model_path = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Modèles/xgb_intraday_model.json"
-save_path  = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Trade3"
-data_path  = "/Users/robinguichon/Desktop/ProjetEnerg/Data/DATA2_XGBOOST"
+model_path = "/Users/robinguichon/Desktop/ProjetEnerg/Traiding/Models/xgb_intraday_model.json"
+save_path  = "/Users/robinguichon/Desktop/ProjetEnerg/Plots/Trading_Strategies/Mispricing"
+data_path  = "/Users/robinguichon/Desktop/ProjetEnerg/Data/Data_XGBoost_Rolling"
 
 os.makedirs(save_path, exist_ok=True)
 
