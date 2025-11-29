@@ -2,7 +2,7 @@
 
 ## **📌 Overview**
 
-![Cumulative PnL — Threshold Strategy](R/Users/robinguichon/Desktop/ProjetEnerg/Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
+![Cumulative PnL — Threshold Strategy](Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
 
 
 This repository provides a complete end-to-end framework for forecasting hourly intraday electricity prices on the Iberian market and converting these forecasts into systematic trading strategies. The project integrates data engineering, advanced machine-learning models, hyperparameter optimisation, and algorithmic trading mechanisms.  
