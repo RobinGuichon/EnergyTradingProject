@@ -2,9 +2,6 @@
 
 ## **📌 Overview**
 
-![](Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
-
-
 This repository provides a complete end-to-end framework for forecasting hourly intraday electricity prices on the Iberian market and converting these forecasts into systematic trading strategies. The project integrates data engineering, advanced machine-learning models, hyperparameter optimisation, and algorithmic trading mechanisms.  
 Its objective is twofold:
 
@@ -54,7 +51,7 @@ The following models are implemented and compared:
 - Directional Accuracy  
 
 Both **forecasting accuracy** and **ability to predict price movements** are assessed.
-
+![](Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
 ---
 
 ## **📈 Trading Strategies**
