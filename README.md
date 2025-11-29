@@ -51,6 +51,7 @@ The following models are implemented and compared:
 - Directional Accuracy  
 
 Both **forecasting accuracy** and **ability to predict price movements** are assessed.
+
 ![](Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
 ---
 
