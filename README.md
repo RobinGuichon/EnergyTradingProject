@@ -79,6 +79,18 @@ Each strategy produces:
 
 ## **🏆 Key Results**
 
+- **Best forecasting model:**  
+  **XGBoost with lag + rolling features**
+![](Plots/XGBoost/XGBoost_Rolling/xgbroll_test_predictions.png)
+- **Best no-capital strategy:**  
+  **Threshold Strategy**
+![](Plots/Trading_Strategies/Threshold/pnl_hourly_threshold.png)
+- **Best capital-based strategy:**  
+  **Sigmoid Confidence Sizing**
+![](Plots/Traiding_PositionSizing/Sigmoid/pnl_hourly_sigmoid.png)
+Profitability is confirmed with high Sharpe ratios, stable directional accuracy, and controlled drawdowns.
+
+---
 
 
 
